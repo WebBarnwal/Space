@@ -1,0 +1,57 @@
+.spaceLaunchHome{
+    background: #bbb1b1;
+}
+.launchScreen{
+    margin:0% 14%;
+}
+
+
+
+.card{
+    width: 25%;
+    border: 2px solid;
+    padding: 2%;
+    background: #fff;
+}
+.card ul{
+    list-style: none;
+    margin-left: -15%;
+}
+.cardName{
+    color: #5858a7;
+    font-weight: bold;
+    font-size: 18px;
+}
+.missionId{
+    font-size: 17px;
+    font-weight: bold;
+    color: #111;
+}
+.success, .landing, .launch{
+    font-size: 13px;
+    font-weight: bold;
+}
+.launchYr{
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 28%;
+}
+
+.successBoolean{
+    margin-left: 13%;
+    font-weight: normal;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+.card{
+    width: 50%;
+}
+}
+@media only screen and (max-width: 700px){
+    .card{
+        width: 100%;
+    }
+    }
